@@ -48,10 +48,7 @@
     "watch": "gulp",
     "sass": "gulp styles",
     "js": "gulp webpack",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "gulp"
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.24.1"
