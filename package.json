@@ -45,10 +45,13 @@
   "scripts": {
     "bundle": "./node_modules/.bin/webpack",
     "production": "./node_modules/.bin/webpack -p",
-    "start": "gulp",
     "watch": "gulp",
     "sass": "gulp styles",
-    "js": "gulp webpack"
+    "js": "gulp webpack",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.24.1"
